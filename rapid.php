@@ -10,7 +10,7 @@
 	</head>
 	<body>
 	<script>
-        var file = "<?php echo(trim(file_get_contents('texts/$file'),'\n')); ?>";
+        var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
 	var title = file.split('\n');
 	var contents = file.split(" ");
 	console.log(title[0]);
