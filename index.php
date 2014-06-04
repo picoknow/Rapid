@@ -2,7 +2,6 @@
 <html>
   <head>
 		<title>Welcome to Rapid!</title>
-		
 		<meta charset="UTF-8">
   </head>
   <body>
