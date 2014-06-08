@@ -19,7 +19,7 @@
 			console.log(contents);
 			var wpms = wpm/60000;
 			var interval = 1/wpms;
-			setTimeout(read(),10000);
+			setTimeout(read,10000);
 			
 			function read() {
 				console.log("Reading!");
