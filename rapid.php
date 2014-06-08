@@ -20,10 +20,13 @@
 			var wpms = wpm/60000;
 			var interval = 1/wpms;
 			setTimeout(read,10000);
-			
+			console.log(interval);
 			function read() {
 				console.log("Reading!");
+				setInterval(rapid,interval)
 			}
+			
+			
 		</script>
 	</body>
 </html>
