@@ -12,8 +12,8 @@
 	<body>
 	<script>
         var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
-	var wpm = parseInt(<?php echo $speed; ?>,0);
 	var contents = file.split(" ");
+	var wpm = parseInt(<?php echo $speed; ?>,10);
 	console.log(wpm);
 	console.log(contents);
 	
