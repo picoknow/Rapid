@@ -8,6 +8,7 @@
 ?>
 <html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	</head>
 	<body>
 		<div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div>
