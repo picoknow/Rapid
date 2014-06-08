@@ -28,6 +28,7 @@
 			
 			function rapid() {
 				console.log("Rapid is working!");
+				
 			}
 		</script>
 	</body>
