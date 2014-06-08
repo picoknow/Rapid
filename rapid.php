@@ -4,6 +4,7 @@
 		return stripslashes(trim($string));
 	}
 	$file = removeslashes($_GET['q']);
+	$speed = $_GET['s'];
 ?>
 <html>
 	<head>
@@ -11,9 +12,9 @@
 	<body>
 	<script>
         var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
-	var title = file.split('\n');
+	var wpm = parseInt(<?php echo $speed; ?>,0);
 	var contents = file.split(" ");
-	console.log(title[0]);
+	console.log(wpm);
 	console.log(contents);
 	
 	
