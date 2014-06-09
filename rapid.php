@@ -9,9 +9,56 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		    <style>
+
+        * {
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        html {
+            color: #888;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        body {
+            left: 50%;
+            margin: -43px 0 0 -150px;
+            position: absolute;
+            top: 50%;
+            width: 300px;
+        }
+
+        h1 {
+            color: #555;
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        p {
+            line-height: 1.2;
+        }
+
+        @media only screen and (max-width: 270px) {
+
+            body {
+                margin: 10px auto;
+                position: static;
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+        }
+
+    </style>
 	</head>
 	<body>
-		<div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div>
+		<br />
+		<h1><div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div></h1>
 		<script>
 		var reader;
         	var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
