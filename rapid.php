@@ -13,6 +13,7 @@
 	<body>
 		<div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div>
 		<script>
+		var reader;
         	var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
 			var words = file.split(" ");
 			var wpm = parseInt(<?php echo $speed; ?>,10);
@@ -27,7 +28,7 @@
 			var rapidBox = document.getElementById("readerBox");
 			function read() {
 				console.log("Reading!");
-				var reader = setInterval(rapid,interval);
+				reader = setInterval(rapid,interval);
 			}
 			
 			function rapid() {
