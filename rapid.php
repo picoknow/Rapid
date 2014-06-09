@@ -61,7 +61,8 @@
 		<h1><div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div></h1>
 		<script>
 		var reader;
-        	var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
+        	<?php echo(htmlentities(trim(file_get_contents("texts/$file"),"\n"))); ?>';
+        	
 			var words = file.split(" ");
 			var wpm = parseInt(<?php echo $speed; ?>,10);
 			console.log(wpm);
