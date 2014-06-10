@@ -61,14 +61,8 @@
 		<h1><div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div></h1>
 		<script>
 		var reader;
-        	/**var file="<?php echo(htmlentities(trim(file_get_contents("texts/$file"),"\n"))); ?>";*/
-        	//xmlhttp.open("GET","ajax_info.txt",false);
-        	xmlhttp.onreadystatechange=function()
-		  {
-		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-		    {
-		    	var file = xmlhttp.responseText;
-		    	var words = file.split(" ");
+        	var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
+			var words = file.split(" ");
 			var wpm = parseInt(<?php echo $speed; ?>,10);
 			console.log(wpm);
 			console.log(words);
@@ -95,11 +89,6 @@
 					rapidBox.innerHTML="End of File! Why not try it a bit faster next time?"
 				}
 			}
-		    }
-		  }
-		xmlhttp.open("GET","<?php echo('texts/'.$file); ?>",true);
-		xmlhttp.send();
-
 		</script>
 	</body>
-</html>
+</html>+
