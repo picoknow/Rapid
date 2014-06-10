@@ -12,7 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="theme.css">
 	</head>
 	<body>
-		<br />
 		<h1><div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div></h1>
 		<script>
 		var reader;
