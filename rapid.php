@@ -36,10 +36,10 @@
 			function rapid() {
 				console.log("Rapid is working!");
 				rapidBox.innerHTML = words[i];
-				if(i < end) {
+				if(i <= end) {
 					i++
 				}
-				if(i == end) {
+				if(i == end+1) {
 					clearInterval(reader);
 					rapidBox.innerHTML="End of File! Why not try it a bit faster next time?"
 				}
