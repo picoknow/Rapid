@@ -9,8 +9,8 @@
 		<h1>Hi!</h1>
 		<p>
 			Would you prefer
-			<a href="rapid.php?q=English/Welcome.txt&s=450">English</a> or
-			<a href="rapid.php?q=Gujarati/Welcome.txt&s=450">Gujarati</a>?
+			<a href="rapid.php?q=English/Welcome.txt&s=250">English</a> or
+			<a href="rapid.php?q=Gujarati/Welcome.txt&s=250">Gujarati</a>?
 		</p>
 	</body>
 </html>
