@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="theme.css">
 	</head>
 	<body>
-		<h1><div id="readerBox">Welcome to Rapid! Your article will begin in 10 seconds</div></h1>
+		<h1><div id="readerBox">Article will begin in 10 seconds.</div></h1>
 		<script>
 		var reader;
         	var file = '<?php echo(trim(file_get_contents("texts/$file"),"\n")); ?>';
