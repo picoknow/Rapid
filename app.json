@@ -1,0 +1,19 @@
+{
+  "name": "Rapid",
+  "description": "A fast-ish text-reader demo.",
+  "keywords": [
+    "productivity",
+    "text",
+    "reader"
+  ],
+  "website": "https://github.com/picoknow/Rapid/",
+  "repository": "https://github.com/picoknow/Rapid/",
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "1"
+    }
+  }
+}
