@@ -3,7 +3,10 @@ Rapid
 
 No longer online, but deploys fine on Heroku, as is.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/picoknow/Rapid/)
+
 ##Note:
+
 All text must be on a single line, and have all quotes escaped for this to work
 
 ## About
